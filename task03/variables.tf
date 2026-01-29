@@ -40,13 +40,16 @@ variable "location" {
 }
 
 variable "vnet_address_space" {
-  type = string
+  description = "Virtual Network Address Space"
+  type        = string
 }
 
 variable "subnet_1_cidr" {
-  type = string
+  description = "Subnet 1 CIDR"
+  type        = string
 }
 
 variable "subnet_2_cidr" {
-  type = string
+  description = "Subnet 2 CIDR"
+  type        = string
 }
